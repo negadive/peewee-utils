@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='prefetch_to_dict',
-    version='0.1',
+    version='0.1.1',
     scripts=['p2d'] ,
     author="Teguh Prabowo",
     author_email="putr4.g4ul@gmail.com",
-    description="peewee utility, make prefetch result to dict",
+    description="peewee utility, make prefetch result to dict without query",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/negadive/prefetch_to_dict",
@@ -21,4 +21,7 @@ setuptools.setup(
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
+    install_requires=[
+        'peewee',
+    ]
  )
