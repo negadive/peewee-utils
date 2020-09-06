@@ -1,0 +1,7 @@
+README.md
+p2d
+setup.py
+prefetch_to_dict.egg-info/PKG-INFO
+prefetch_to_dict.egg-info/SOURCES.txt
+prefetch_to_dict.egg-info/dependency_links.txt
+prefetch_to_dict.egg-info/top_level.txt

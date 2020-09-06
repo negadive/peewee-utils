@@ -1,0 +1,1 @@
+transform peewee.prefetch result (list of models) into dict

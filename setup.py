@@ -12,7 +12,7 @@ setuptools.setup(
     description="peewee utility, make prefetch result to dict",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/javatechy/dokr",
+    url="https://github.com/negadive/prefetch_to_dict",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
