@@ -1,4 +1,4 @@
-from main import prefetch_to_dict
+from .main import prefetch_to_dict
 
 
 __title__ = 'prefetch_to_dict'

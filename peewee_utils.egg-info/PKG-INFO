@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: peewee-utils
+Version: 0.1
+Summary: peewee utility, make prefetch result to dict without query
+Home-page: https://github.com/negadive/prefetch_to_dict
+Author: Teguh Prabowo
+Author-email: putr4.g4ul@gmail.com
+License: UNKNOWN
+Description: transform peewee.prefetch result (list of models) into dict
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

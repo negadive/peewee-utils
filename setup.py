@@ -4,9 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='prefetch_to_dict',
-    version='0.1.1',
-    scripts=['p2d'] ,
+    name='peewee_utils',
+    version='0.1',
     author="Teguh Prabowo",
     author_email="putr4.g4ul@gmail.com",
     description="peewee utility, make prefetch result to dict without query",

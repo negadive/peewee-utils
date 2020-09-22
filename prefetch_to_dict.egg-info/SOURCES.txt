@@ -1,6 +1,8 @@
 README.md
 p2d
 setup.py
+peewee_utils/__init__.py
+peewee_utils/main.py
 prefetch_to_dict.egg-info/PKG-INFO
 prefetch_to_dict.egg-info/SOURCES.txt
 prefetch_to_dict.egg-info/dependency_links.txt
