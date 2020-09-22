@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='peewee_utils',
-    version='0.1',
+    version='0.1.3',
     author="Teguh Prabowo",
     author_email="putr4.g4ul@gmail.com",
     description="peewee utility, make prefetch result to dict without query",

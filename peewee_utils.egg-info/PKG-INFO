@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: peewee-utils
-Version: 0.1
+Version: 0.1.2
 Summary: peewee utility, make prefetch result to dict without query
 Home-page: https://github.com/negadive/prefetch_to_dict
 Author: Teguh Prabowo
