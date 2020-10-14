@@ -1,7 +1,8 @@
 from peewee import ForeignKeyField
 
 
-_clone_set = lambda s: set(s) if s else set()
+def _clone_set(s): return set(s) if s else set()
+
 
 def prefetch_to_dict(model, recurse=True, backrefs=True, max_depth=None, exclude=None, __seen=None, __parent=None):
     """
@@ -14,6 +15,7 @@ def prefetch_to_dict(model, recurse=True, backrefs=True, max_depth=None, exclude
     :param int max_depth: Maximum depth to recurse, value <= 0 means no max.
     """
     data = {}
+
     max_depth = -1 if max_depth is None else max_depth
     if max_depth == 0:
         recurse = False
@@ -45,7 +47,7 @@ def prefetch_to_dict(model, recurse=True, backrefs=True, max_depth=None, exclude
                         max_depth=max_depth - 1,
                         __seen=__seen,
                         __parent=__parent,
-                        )
+                    )
             else:
                 field_data = None
 
