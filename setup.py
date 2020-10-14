@@ -11,7 +11,7 @@ setuptools.setup(
     description="peewee utility, make prefetch result to dict without query",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/negadive/prefetch_to_dict",
+    url="https://github.com/negadive/peewee-utils",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
